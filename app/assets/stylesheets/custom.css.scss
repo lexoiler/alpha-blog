@@ -194,3 +194,47 @@ body {
   display: flex;
   align-items: center;
 }
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+ 
+}
+
+textarea {
+  height: 120px;
+}
+
+span#formsubmit {
+    background-color: white !important; 
+    border: 2px solid #EEBB22;
+    color: #EEBB22;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 200px;
+    -webkit-appearance: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]
+{
+  
+ 
+    background-color: white;
+    border-width: 0px;
+    border-color: white;
+    cursor: pointer;
+}
+
+
+a {
+    color: #eebb22;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
