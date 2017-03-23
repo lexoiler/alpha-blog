@@ -1,2 +1,196 @@
+$navbar-default-bg: #ffffff; 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default { 
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #777777;
+}
+
+.navbar-default .navbar-nav > li {
+  color: #777777;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-nav > li {
+    float: left;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 19px;
+    line-height: 32px;
+    color: #666666;
+font-family: 'Roboto Mono', monospace;
+
+font-style: normal;
+font-weight: 700;
+}
+
+h1 { 
+
+    font-size: 32px;
+    padding-top: 5px;
+    color: black;
+    padding-bottom: 15px;
+font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    text-align: left;
+  
+} 
+
+p { 
+  font-size: 14px;
+  line-height: 1.5; 
+  color: #666666;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #EEBB22;
+    border-color: #EEBB22;
+}
+
+.btn-default {
+    color: #EEBB22;
+    background-color: #fff;
+}
+
+.btn {
+padding: 19px 55px 19px 10px;
+    min-height: 90px;
+    font-size: 20px;
+    line-height: 40px;
+    min-width: 437px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #EEBB22;
+    text-transform: uppercase;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-decoration: none;
+    border: 6px solid transparent;
+    -webkit-transition: background .25s ease, border .25s ease, color .25s ease;
+    transition: background .25s ease, border .25s ease, color .25s ease;
+    box-shadow: 0 16px 20px rgba(9, 59, 48, .1);
+    margin: 0 0 2px;
+    min-height: 50px;
+    padding: 21px 30px 21px 10px;
+    min-width: 290px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #EEBB22;
+    border-color: #EEBB22;
+    border: 1px solid !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+ color: #EEBB22;
+    background-color: #fff;
+    border-color: #EEBB22;
+}
+
+.wrap {
+		position:relative;
+		margin:0 auto;
+               /*replace 900px with your width*/
+		width:900px;
+	}
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #EEBB22;
+  text-align: center;
+font-family: 'Roboto Mono', monospace;
+  color: #fff; 
+  height: 98px;
+}
+
+#child {
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+
+
+.col-md-offset-2 {
+    margin-left: 20%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.button {
+    background-color: #EEBB22; /* gold */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    width: 140px;
+ 
+}
+
+.button-2 {
+    background-color: white; 
+    border: 2px solid #EEBB22;
+    color: #EEBB22;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 140px;
+
+}
+
+.navbar-collapse.collapse
+{ padding-top: 55px; }
+
+.vertical-center {
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
